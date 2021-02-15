@@ -13,8 +13,6 @@ func _physics_process(_delta):
 		queue_free()
 
 
-
-
 func _on_Bullet_body_entered(body):
 	var explosion = Explosion.instance()
 	explosion.global_position = global_position
